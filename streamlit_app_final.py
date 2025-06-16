@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # 데이터 로드
-df = pd.read_excel("all_reviews_with_category_full_corrected.xlsx")
+df = pd.read_csv("all_reviews_with_category_full_corrected.csv")
 
 
 # Streamlit UI
